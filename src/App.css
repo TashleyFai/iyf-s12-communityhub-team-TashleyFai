@@ -1,0 +1,202 @@
+
+/* General page styling */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f7fb;
+  color: #263238;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #173b70;
+  color: white;
+  padding: 28px 7%;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+header p {
+  margin: 5px 0 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #a9d6ff;
+}
+
+/* Main content */
+main {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+main > h1 {
+  color: #173b70;
+}
+
+/* Sections and cards */
+section,
+article,
+aside,
+.card {
+  background: white;
+  padding: 22px;
+  margin: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+}
+
+h2 {
+  color: #173b70;
+  margin-top: 0;
+}
+
+h3 {
+  color: #28558c;
+}
+
+/* Forms */
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0 14px;
+  border: 1px solid #ccd5e0;
+  border-radius: 7px;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+textarea {
+  min-height: 110px;
+  resize: vertical;
+}
+
+input:focus,
+textarea:focus {
+  outline: 2px solid #6aa5e8;
+  border-color: #28558c;
+}
+
+/* Buttons */
+button {
+  background: #245b9e;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  margin: 5px 5px 5px 0;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #173b70;
+}
+
+button:disabled {
+  background: #9ba9b8;
+  cursor: not-allowed;
+}
+
+/* Sidebar */
+aside {
+  border-left: 5px solid #245b9e;
+}
+
+aside ul {
+  padding-left: 22px;
+}
+
+/* Community posts */
+article p {
+  margin: 8px 0;
+}
+
+article button {
+  margin-top: 12px;
+}
+
+/* User profile */
+article h3 {
+  margin-top: 0;
+}
+
+/* Footer */
+footer {
+  background: #173b70;
+  color: white;
+  text-align: center;
+  padding: 22px;
+  margin-top: 40px;
+}
+
+footer p {
+  margin: 5px;
+}
+
+/* Mobile screen support */
+@media (max-width: 600px) {
+  header {
+    padding: 22px 15px;
+  }
+
+  header h1 {
+    font-size: 25px;
+  }
+
+  nav {
+    gap: 15px;
+  }
+
+  main {
+    margin: 20px auto;
+    padding: 0 12px;
+  }
+
+  section,
+  article,
+  aside,
+  .card {
+    padding: 16px;
+  }
+}
+
+.card-primary {
+  border-left: 5px solid #245b9e;
+}
+
+.card-secondary {
+  background: #eaf2fc;
+  border-left: 5px solid #6b8db8;
+}
+
+.card-outlined {
+  background: transparent;
+  border: 2px solid #245b9e;
+  box-shadow: none;
+}
