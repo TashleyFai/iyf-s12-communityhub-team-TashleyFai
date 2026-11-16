@@ -1,3 +1,4 @@
+
 function Button({
   children,
   text,
@@ -15,7 +16,8 @@ function Button({
     >
       {loading ? (
         <>
-          <span className="spinner"></span> Loading...
+          <span className="spinner"></span>
+          Loading...
         </>
       ) : (
         text || children
