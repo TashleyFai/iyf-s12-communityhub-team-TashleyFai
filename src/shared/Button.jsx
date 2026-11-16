@@ -13,7 +13,13 @@ function Button({
       disabled={disabled || loading}
       className={`button button-${variant} button-${size}`}
     >
-      {loading ? 'Loading...' : text || children}
+      {loading ? (
+        <>
+          <span className="spinner"></span> Loading...
+        </>
+      ) : (
+        text || children
+      )}
     </button>
   )
 }
