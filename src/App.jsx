@@ -1,4 +1,3 @@
-
 import { useState } from 'react'
 
 import PageLayout from './Layout/PageLayout'
@@ -32,7 +31,7 @@ function App() {
       id: 2,
       title: 'Learning React',
       content: 'Today I am learning how to build applications with React.',
-      author: 'John',
+      author: 'Faith',
       date: 'November 15, 2026',
       likes: 3
     },
@@ -40,7 +39,7 @@ function App() {
       id: 3,
       title: 'Technology and Education',
       content: 'Technology helps us learn new skills and share knowledge.',
-      author: 'Mary',
+      author: 'Faith',
       date: 'November 15, 2026',
       likes: 2
     }
@@ -55,8 +54,7 @@ function App() {
 
   const users = [
     { id: 1, name: 'Faith', role: 'Community Member' },
-    { id: 2, name: 'John', role: 'Developer' },
-    { id: 3, name: 'Mary', role: 'Designer' }
+    { id: 2, name: 'Ireen', role: 'Team Member' }
   ]
 
   function handleAddPost(newPost) {

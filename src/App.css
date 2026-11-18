@@ -200,3 +200,48 @@ footer p {
   border: 2px solid #245b9e;
   box-shadow: none;
 }
+/* Button variants */
+.button-primary {
+  background: #245b9e;
+}
+
+.button-secondary {
+  background: #6b7280;
+}
+
+.button-danger {
+  background: #dc2626;
+}
+
+/* Button sizes */
+.button-small {
+  padding: 6px 12px;
+  font-size: 12px;
+}
+
+.button-medium {
+  padding: 10px 18px;
+  font-size: 14px;
+}
+
+.button-large {
+  padding: 14px 24px;
+  font-size: 16px;
+}
+.spinner {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 2px solid white;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
