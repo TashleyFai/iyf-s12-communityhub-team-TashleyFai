@@ -1,3 +1,4 @@
+
 # CommunityHub Contributors
 
 ## Team Members
@@ -15,19 +16,18 @@
 **Role:** Team Lead
 
 **Contributions:**
-- Worked on the CommunityHub React application.
+- Developed React components and features for CommunityHub.
 - Implemented post creation, liking, deletion, and search.
-- Developed reusable React components.
 - Improved reusable Button variants, sizes, and loading states.
 - Created utility functions and automated tests.
-- Added React learning exercises.
+- Created React learning exercises.
 - Coordinated team collaboration and repository updates.
 
 **Pull Requests Opened:**
 - [PR #2 – Week 8 React exercises and CommunityHub improvements](https://github.com/TashleyFai/iyf-s12-communityhub-team-TashleyFai/pull/2) — Merged.
 
 **Pull Requests Reviewed:**
-- No formal reviews recorded yet.
+- No formal reviews submitted yet.
 
 **Issues Closed:**
 - None recorded.
@@ -39,15 +39,15 @@
 **Role:** Collaborator
 
 **Contributions:**
-- Contributed to CommunityHub development.
-- Submitted code changes through PR #4.
-- Participated in reviewing team contributions.
+- Added the CommentSection component.
+- Added Week 8 React exercises.
+- Updated CONTRIBUTORS.md.
 
 **Pull Requests Opened:**
-- [PR #4 – Ireenkathure's CommunityHub contribution](https://github.com/TashleyFai/iyf-s12-communityhub-team-TashleyFai/pull/4).
+- [PR #4 – Ireenkathure exercises and CommentSection](https://github.com/TashleyFai/iyf-s12-communityhub-team-TashleyFai/pull/4) — Merged.
 
 **Pull Requests Reviewed:**
-- [PR #2 – Reviewed and approved TashleyFai's work](https://github.com/TashleyFai/iyf-s12-communityhub-team-TashleyFai/pull/2).
+- [PR #2 – Approved TashleyFai's work](https://github.com/TashleyFai/iyf-s12-communityhub-team-TashleyFai/pull/2).
 
 **Issues Closed:**
 - None recorded.
@@ -60,15 +60,14 @@
 
 **Contributions:**
 - Created the Intro React exercise.
-- Added `frontend/src/exercises/SketchAlien/Intro.jsx`.
+- Added frontend/src/exercises/SketchAlien/Intro.jsx.
 - Implemented a React component using props.
-- Participated in team code reviews.
 
 **Pull Requests Opened:**
 - [PR #3 – Add Intro exercise](https://github.com/TashleyFai/iyf-s12-communityhub-team-TashleyFai/pull/3) — Merged.
 
 **Pull Requests Reviewed:**
-- [PR #2 – Reviewed and approved TashleyFai's work](https://github.com/TashleyFai/iyf-s12-communityhub-team-TashleyFai/pull/2).
+- [PR #2 – Approved TashleyFai's work](https://github.com/TashleyFai/iyf-s12-communityhub-team-TashleyFai/pull/2).
 
 **Issues Closed:**
 - None recorded.
