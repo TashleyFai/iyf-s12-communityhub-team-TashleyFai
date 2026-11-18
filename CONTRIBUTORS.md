@@ -1,4 +1,3 @@
-
 # CommunityHub Contributors
 
 ## Team Members
