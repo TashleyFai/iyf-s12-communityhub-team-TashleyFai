@@ -15,5 +15,8 @@
 - Created React learning exercises.
 
 ### Ireenkathure
-- Team member and collaborator.
-- Contributions to be updated as work is completed and verified.
+- PRs opened: #3
+- PRs reviewed: #2
+- Issues closed: #1
+- Features: CommentSection component, Intro React exercise in src/exercises/ireenkathure/
+- Worked on React components and CommunityHub features.
