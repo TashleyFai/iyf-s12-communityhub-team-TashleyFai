@@ -1,9 +1,10 @@
+
 # CommunityHub Contributors
 
 ## Team Members
 
 - [TashleyFai](https://github.com/TashleyFai)
-- [Ireenkathure](https://github.com/Ireenkathure)
+- [Ireenkathure](https://github.com/ireenkathure)
 - [SketchAlien](https://github.com/SketchAlien)
 
 ---
@@ -16,18 +17,24 @@
 
 **Contributions:**
 - Worked on the CommunityHub React application.
-- Improved reusable Button components, variants and loading states.
-- Created React learning exercises.
-- Maintained the team repository and coordinated collaboration.
+- Implemented post creation, liking, deletion, and search.
+- Developed reusable React components.
+- Improved Button variants, sizes, and loading states.
+- Created utility functions and automated tests.
+- Added React learning exercises.
+- Coordinated team collaboration and repository updates.
 
 **Pull Requests Opened:**
+
 - [PR #2 – Week 8 React exercises and CommunityHub improvements](https://github.com/TashleyFai/iyf-s12-communityhub-team-TashleyFai/pull/2) — Merged.
 
 **Pull Requests Reviewed:**
+
 - No formal reviews recorded yet.
 
 **Issues Closed:**
-- None recorded.
+
+- None recorded yet.
 
 ---
 
@@ -37,16 +44,21 @@
 
 **Contributions:**
 - Contributed to CommunityHub development.
-- Submitted changes through pull request #4.
+- Added the CommentSection component.
+- Added the IntroReact exercise.
+- Participated in team code reviews.
 
 **Pull Requests Opened:**
-- [PR #4 – Ireenkathure's CommunityHub contribution](https://github.com/TashleyFai/iyf-s12-communityhub-team-TashleyFai/pull/4).
+
+- [PR #4 – CommunityHub contribution](https://github.com/TashleyFai/iyf-s12-communityhub-team-TashleyFai/pull/4).
 
 **Pull Requests Reviewed:**
-- No formal reviews verified yet.
+
+- [PR #2 – Reviewed and approved TashleyFai's work](https://github.com/TashleyFai/iyf-s12-communityhub-team-TashleyFai/pull/2).
 
 **Issues Closed:**
-- None recorded.
+
+- None recorded yet.
 
 ---
 
@@ -56,14 +68,18 @@
 
 **Contributions:**
 - Created the Intro React exercise.
-- Added the Intro component using React props.
-- Contributed to the team's React learning exercises.
+- Added `frontend/src/exercises/SketchAlien/Intro.jsx`.
+- Implemented a React component using props.
+- Participated in team code reviews.
 
 **Pull Requests Opened:**
+
 - [PR #3 – Add Intro exercise](https://github.com/TashleyFai/iyf-s12-communityhub-team-TashleyFai/pull/3) — Merged.
 
 **Pull Requests Reviewed:**
-- [PR #2 – Reviewed and approved TashleyFai's contribution](https://github.com/TashleyFai/iyf-s12-communityhub-team-TashleyFai/pull/2).
+
+- [PR #2 – Reviewed and approved TashleyFai's work](https://github.com/TashleyFai/iyf-s12-communityhub-team-TashleyFai/pull/2).
 
 **Issues Closed:**
-- None recorded.
+
+- None recorded yet.
