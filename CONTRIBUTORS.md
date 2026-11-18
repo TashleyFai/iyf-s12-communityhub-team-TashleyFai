@@ -8,17 +8,17 @@
 
 ---
 
-## Contributions
+## Individual Contributions
 
-### TashleyFai
+### 1. TashleyFai
 
 **Role:** Team Lead
 
-- Developed CommunityHub React components and features.
-- Implemented post creation, liking, deletion, and search.
-- Added reusable components and page layout.
-- Created utility functions and automated tests.
+**Contributions:**
+- Worked on the CommunityHub React application.
+- Improved reusable Button components, variants and loading states.
 - Created React learning exercises.
+- Maintained the team repository and coordinated collaboration.
 
 **Pull Requests Opened:**
 - [PR #2 – Week 8 React exercises and CommunityHub improvements](https://github.com/TashleyFai/iyf-s12-communityhub-team-TashleyFai/pull/2) — Merged.
@@ -27,37 +27,43 @@
 - No formal reviews recorded yet.
 
 **Issues Closed:**
-- None recorded yet.
+- None recorded.
 
-### Ireenkathure
+---
+
+### 2. Ireenkathure
 
 **Role:** Collaborator
 
+**Contributions:**
 - Contributed to CommunityHub development.
-- Added the CommentSection and IntroReact exercise files through PR #4.
+- Submitted changes through pull request #4.
 
 **Pull Requests Opened:**
-- [PR #4 – Ireen's CommunityHub contribution](https://github.com/TashleyFai/iyf-s12-communityhub-team-TashleyFai/pull/4).
+- [PR #4 – Ireenkathure's CommunityHub contribution](https://github.com/TashleyFai/iyf-s12-communityhub-team-TashleyFai/pull/4).
 
 **Pull Requests Reviewed:**
-- To be updated when verified.
+- No formal reviews verified yet.
 
 **Issues Closed:**
-- None recorded yet.
+- None recorded.
 
-### SketchAlien
+---
+
+### 3. SketchAlien
 
 **Role:** Collaborator
 
+**Contributions:**
 - Created the Intro React exercise.
-- Added `frontend/src/exercises/SketchAlien/Intro.jsx`.
+- Added the Intro component using React props.
 - Contributed to the team's React learning exercises.
 
 **Pull Requests Opened:**
 - [PR #3 – Add Intro exercise](https://github.com/TashleyFai/iyf-s12-communityhub-team-TashleyFai/pull/3) — Merged.
 
 **Pull Requests Reviewed:**
-- [PR #2 – Approved TashleyFai's Week 8 contribution](https://github.com/TashleyFai/iyf-s12-communityhub-team-TashleyFai/pull/2).
+- [PR #2 – Reviewed and approved TashleyFai's contribution](https://github.com/TashleyFai/iyf-s12-communityhub-team-TashleyFai/pull/2).
 
 **Issues Closed:**
-- None recorded yet.
+- None recorded.
