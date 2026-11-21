@@ -1,51 +1,45 @@
-import { useState } from 'react'
+
+import { useState, useEffect } from 'react'
 
 import PageLayout from './Layout/PageLayout'
-
 import PostList from './components/PostList'
 import CreatePost from './components/CreatePost'
 import Greeting from './components/Greeting'
 import UserList from './components/UserList'
-
 import UserProfile from './User/UserProfile'
 
 import Button from './shared/Button'
 import Input from './shared/Input'
 import Card from './shared/Card'
 
+import useFetch from './hooks/useFetch'
+import useLocalStorage from './hooks/useLocalStorage'
 import { getTotalLikes, searchPosts } from './utils/posts'
 
 import './App.css'
 
 function App() {
-  const [posts, setPosts] = useState([
-    {
-      id: 1,
-      title: 'My First Community Post',
-      content: 'Hello everyone! Welcome to our community.',
-      author: 'Faith',
-      date: 'November 15, 2026',
-      likes: 5
-    },
-    {
-      id: 2,
-      title: 'Learning React',
-      content: 'Today I am learning how to build applications with React.',
-      author: 'Faith',
-      date: 'November 15, 2026',
-      likes: 3
-    },
-    {
-      id: 3,
-      title: 'Technology and Education',
-      content: 'Technology helps us learn new skills and share knowledge.',
-      author: 'Faith',
-      date: 'November 15, 2026',
-      likes: 2
-    }
-  ])
+  const { data, loading, error } = useFetch(
+    'https://jsonplaceholder.typicode.com/posts'
+  )
 
+  const [posts, setPosts] = useLocalStorage('communityhub-posts', [])
   const [searchTerm, setSearchTerm] = useState('')
+
+  useEffect(() => {
+    if (data && posts.length === 0) {
+      const formattedPosts = data.slice(0, 10).map((post) => ({
+        id: post.id,
+        title: post.title,
+        content: post.body,
+        author: `User ${post.userId}`,
+        date: new Date().toLocaleDateString(),
+        likes: 0
+      }))
+
+      setPosts(formattedPosts)
+    }
+  }, [data, posts.length, setPosts])
 
   const user = {
     name: 'Faith',
@@ -67,21 +61,21 @@ function App() {
       likes: 0
     }
 
-    setPosts([...posts, post])
+    setPosts((currentPosts) => [...currentPosts, post])
   }
 
   function handleLikePost(id) {
-    setPosts(
-      posts.map((post) =>
-        post.id === id
-          ? { ...post, likes: post.likes + 1 }
-          : post
+    setPosts((currentPosts) =>
+      currentPosts.map((post) =>
+        post.id === id ? { ...post, likes: post.likes + 1 } : post
       )
     )
   }
 
   function handleDeletePost(id) {
-    setPosts(posts.filter((post) => post.id !== id))
+    setPosts((currentPosts) =>
+      currentPosts.filter((post) => post.id !== id)
+    )
   }
 
   const filteredPosts = searchPosts(posts, searchTerm)
@@ -95,7 +89,6 @@ function App() {
       <p>Connect, share ideas and grow together.</p>
 
       <UserProfile user={user} />
-
       <UserList users={users} />
 
       <Card title="Community Statistics">
@@ -107,27 +100,28 @@ function App() {
 
       <section>
         <h2>Search Community Posts</h2>
-
         <Input
           label="Search by post title"
           value={searchTerm}
           onChange={(event) => setSearchTerm(event.target.value)}
           placeholder="Type a title..."
         />
-
-        <Button
-          variant="secondary"
-          onClick={() => setSearchTerm('')}
-        >
+        <Button variant="secondary" onClick={() => setSearchTerm('')}>
           Clear Search
         </Button>
       </section>
 
-      <PostList
-        posts={filteredPosts}
-        onLike={handleLikePost}
-        onDelete={handleDeletePost}
-      />
+      <section>
+        {loading && <p>Loading posts...</p>}
+        {error && <p>Error loading posts: {error}</p>}
+        {!loading && !error && (
+          <PostList
+            posts={filteredPosts}
+            onLike={handleLikePost}
+            onDelete={handleDeletePost}
+          />
+        )}
+      </section>
     </PageLayout>
   )
 }
