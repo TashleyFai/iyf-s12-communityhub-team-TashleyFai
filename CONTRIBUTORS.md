@@ -70,3 +70,6 @@
 
 **Issues Closed:**
 - None recorded.
+
+- SketchAlien - Week 9 - Exercises 1, 2, 3 (Routing, useToggle, useForm)
+- PR: https://github.com/TashleyFai/iyf-s12-communityhub-team-TashleyFai/pull/9
