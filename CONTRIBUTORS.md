@@ -1,3 +1,4 @@
+
 # CommunityHub Contributors
 
 ## Team Members
@@ -21,9 +22,13 @@
 - Created utility functions and automated tests.
 - Created React learning exercises.
 - Coordinated team collaboration and repository updates.
+- Created the `useFetch` custom hook for API requests.
+- Created the `useLocalStorage` custom hook for persistent data.
+- Integrated JSONPlaceholder API with loading and error states.
 
 **Pull Requests Opened:**
 - [PR #2 – Week 8 React exercises and CommunityHub improvements](https://github.com/TashleyFai/iyf-s12-communityhub-team-TashleyFai/pull/2) — Merged.
+- [PR #10 – Week 9 API Integration and Custom Hooks](https://github.com/TashleyFai/iyf-s12-communityhub-team-TashleyFai/pull/10) — Open.
 
 **Pull Requests Reviewed:**
 - No formal reviews submitted yet.
