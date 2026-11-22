@@ -13,10 +13,14 @@ function ContactFormDemo() {
         useForm({ name: '', email: '' }, validate);
    
     const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log(values);
+      e.preventDefault();
+      const validationErrors = validate(values);
+      if (Object.keys(validationErrors).length > 0) {
+        return;
+      }
+      console.log(values);
         reset();
-    };
+      };
    
     return (
         <form onSubmit={handleSubmit}>
