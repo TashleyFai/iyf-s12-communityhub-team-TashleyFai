@@ -58,18 +58,22 @@
 **Role:** Collaborator
 
 **Contributions:**
+
 - Created the Intro React exercise.
 - Added frontend/src/exercises/SketchAlien/Intro.jsx.
 - Implemented a React component using props.
+- Week 9 - Exercises 1, 2, 3 (Routing, useToggle, useForm) - PR #9
 
 **Pull Requests Opened:**
-- [PR #3 – Add Intro exercise](https://github.com/TashleyFai/iyf-s12-communityhub-team-TashleyFai/pull/3) — Merged.
+
+- [PR #3 – Add Intro exercise — Merged.](https://github.com/TashleyFai/iyf-s12-communityhub-team-TashleyFai/pull/3)
+- [PR #9 – Week 9 Routing & Contributors](https://github.com/TashleyFai/iyf-s12-communityhub-team-TashleyFai/pull/9)
 
 **Pull Requests Reviewed:**
-- [PR #2 – Approved TashleyFai's work](https://github.com/TashleyFai/iyf-s12-communityhub-team-TashleyFai/pull/2).
+
+- [PR #2 – Approved TashleyFai's work.](https://github.com/TashleyFai/iyf-s12-communityhub-team-TashleyFai/pull/2)
+- [PR #10 – Approved TashleyFai's Week 9 API work.](https://github.com/TashleyFai/iyf-s12-communityhub-team-TashleyFai/pull/10)
 
 **Issues Closed:**
-- None recorded.
 
-- SketchAlien - Week 9 - Exercises 1, 2, 3 (Routing, useToggle, useForm)
-- PR: https://github.com/TashleyFai/iyf-s12-communityhub-team-TashleyFai/pull/9
+- None recorded.
