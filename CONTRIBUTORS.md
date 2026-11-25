@@ -77,3 +77,12 @@
 **Issues Closed:**
 
 - None recorded.
+## Ireenkathure - Week 9: React Advanced
+
+- **Branch:** `ireenkathure`
+- **Owned:** About Page exercise + custom `useLocalStorage` hook
+- **Files:**
+    - `frontend/src/exercises/ireenkathure/Week9About.jsx` - About page with `useState` + `useEffect` + cleanup timer
+    - `frontend/src/exercises/ireenkathure/useLocalStorage.js` - Custom hook that saves to localStorage
+- **Week 9 Concepts Used:** Function components, `useState`, `useEffect` with cleanup, custom hooks
+- **PR:** Week 9 - Ireenkathure About + useLocalStorage
